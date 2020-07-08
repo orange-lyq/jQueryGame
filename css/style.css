@@ -1,0 +1,541 @@
+/*公共样式*/
+*{padding:0;margin:0;}
+body,html{font-family:"Microsoft YaHei",SimHei;}
+
+/*整个页面的背景图*/
+.bg1{
+	background-image:url(../img/1.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg2{
+	background-image:url(../img/2.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg3{
+	background-image:url(../img/3.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg4{
+	background-image:url(../img/4.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg5{
+	background-image:url(../img/5.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg6{
+	background-image:url(../img/6.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg7{
+	background-image:url(../img/7.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg8{
+	background-image:url(../img/8.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg9{
+	background-image:url(../img/9.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg10{
+	background-image:url(../img/10.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg11{
+	background-image:url(../img/11.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+
+.bg12{
+	background-image:url(../img/12.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg13{
+	background-image:url(../img/13.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg14{
+	background-image:url(../img/14.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg15{
+	background-image:url(../img/15.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg16{
+	background-image:url(../img/16.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg17{
+	background-image:url(../img/17.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg18{
+	background-image:url(../img/18.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg19{
+	background-image:url(../img/19.jpg) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.bg20{
+	  background-image:url(../img/20.jpg) ;
+	  background-repeat:no-repeat;
+	  background-size: cover; 
+	  /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。 */}
+
+.b1{
+	background-image:url(../img/bg1.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b2{
+	background-image:url(../img/bg2.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b3{
+	background-image:url(../img/bg3.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b4{
+	background-image:url(../img/bg4.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b5{
+	background-image:url(../img/bg5.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b6{
+	background-image:url(../img/bg6.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b7{
+	background-image:url(../img/bg7.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b8{
+	background-image:url(../img/bg8.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b9{
+	background-image:url(../img/bg9.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+.b10{
+	background-image:url(../img/bg10.gif) ;
+	background-repeat:no-repeat;
+	background-size: cover; 
+}
+
+/*首页*/
+.title{
+	font-size:32px;
+	text-align:center;
+	color:#000;
+	margin:50px 0 100px;
+	letter-spacing:5px;
+}
+.main{
+	width:500px;
+	margin:0 auto;
+}
+.main a,.gameDialog .close{
+	display:block;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:2px #75db31 solid;
+	text-decoration:none;
+	font-size:18px;
+	color:#000;
+	margin-top:11px;
+	border-radius:8px;
+	box-shadow:0 0 0 2px #fff inset;
+	background:linear-gradient(180deg,#eef8e8,#67c330);
+}
+.main a:hover{
+	border-color:#afeb85;
+	background:linear-gradient(180deg,#fff,#afeb85);
+}
+/*游戏说明*/
+.gameDialog{
+	position:absolute;
+	padding:20px;
+	width:480px;
+	height:447px;
+	line-height:1.6;
+	font-size:16px;
+	color:#000;
+	background:#fff;
+	z-index:9;
+	left:50%;
+	top:50%;
+	margin:-240px 0 0 -240px;
+}
+.gameDialog .info{
+	height:400px;
+	overflow:auto;
+}
+.gameDialog .close{
+	margin-left:150px;
+	border-color:#3d92b6;
+	background:linear-gradient(180deg,#ecf6f9,#59acd0);
+}
+.gameDialog .close:hover{
+	border-color:#6fb4d0;
+	background:linear-gradient(180deg,#fff,#97cbe1);
+}
+.shadow{
+	position:absolute;
+	background:#000;
+	left:0;
+	top:0;
+	filter:alpha(opacity="50");
+	-moz-opacity:0.5;
+	opacity:0.5;
+	z-index:8;
+}
+/**顶部关卡和主菜单**/
+.set-text{
+	position:relative;
+	text-align:center;
+	margin-top:20px;
+}
+.play-title{
+	display:inline-block;
+	padding:6px 40px;
+	border-radius:8px;
+	font-size:20px;
+	margin-left:25px;
+	border:1px #666 solid;
+	background:rgba(255,255,255,0.8);
+}
+.set-text a{
+	position:absolute;
+	top:2px;
+	right:30%;
+	display:block;
+	width:100px;
+	height:36px;
+	line-height:36px;
+	font-size:16px;
+	color:#000;
+	border:1px #ee7700 solid;
+	text-decoration:none;
+	border-radius:18px;
+	box-shadow:0 0 0 3px #feb367;
+	background:linear-gradient(to bottom right,#fff,#feb367);
+}
+.btnClick{
+	display:block;
+	width:100px;
+	height:105px;
+	background:url(../img/btn-bg.png) no-repeat;
+	margin-left:60%;
+	margin-top:68px;
+}
+.btnDown{
+	background:url(../img/btn-bg-click.png) no-repeat;
+}
+.container{
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:35%;
+	width:100%;
+}
+.stick{
+	position:absolute;
+	left:100px;
+	bottom:100%;
+	height:5px;
+	width:0;
+	background:#096;
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);  /*IE9*/
+	-moz-transform:rotate(-90deg);  /*Firefox*/
+	-webkit-transform:rotate(-90deg);  /*Ssfari  and Chrome*/
+	-o-transform:rotate(-90deg);  /*Opera*/
+	
+	transform-origin:0 100%;
+	-ms-transform-origin:0 100%;
+	-moz-transform-origin:0 100%;
+	-webkit-transform-origin:0 100%;
+	-o-transform-origin:0 100%;
+	
+	transition:transform 0.35s linear;
+	-moz-transition:transform 0.35s linear;
+	-webkit-transition:transform 0.35s linear;
+	-o-transition:transform 0.35s linear;
+}
+.stickDown{
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	
+}
+.man{
+	position:absolute;
+	left:50px;
+	bottom:98%;
+	width:65px;
+	height:97px;
+}
+.man img{
+	position:absolute;
+	left:0;
+	top:0;
+	transition:transform 0.35s linear;
+	-moz-transition:transform 0.35s linear;
+	-webkit-transition:transform 0.35s linear;
+	-o-transition:transform 0.35s linear;
+}
+.man img.rotate{
+	transform:translate(0px,300px);
+	-ms-transform:translate(0px,300px);
+	-moz-transform:translate(0px,300px);
+	-webkit-transform:translate(0px,300px);	
+	-o-transform:translate(0px,300px);
+	
+	transform-origin:100% 100%;
+	-ms-transform-origin:100% 100%;
+	-moz-transform-origin:100% 100%;
+	-webkit-transform-origin:100% 100%;
+	-o-transform-origin:100% 100%;
+	
+}
+.well-box{
+	position:absolute;
+	height:100%;
+}
+.well{
+	position:absolute;
+	height:100%;
+	background:#000;
+}
+/**ÉèÖÃµ¯¿òÑùÊ½**/
+.dialog{
+	position:fixed;
+	width:480px;
+	left:50%;
+	margin-left:-240px;
+	top:230px;
+	padding-bottom:25px;
+	background:#3d3d3d;
+	z-index:100;
+	box-shadow:3px 3px 2px rgba(0,0,0,.5);
+}
+.dialog p{
+	padding:0 20px;
+	color:#fff;
+	font-size:24px;
+	margin-top:15px;
+	line-height:1.8;
+}
+.dialog p.dialog-btn{
+	text-align:center;
+	font-size:16px;
+	margin-top:60px;
+}
+.dialog-btn a{
+	display:inline-block;
+	width:130px;
+	height:35px;
+	line-height:35px;
+	color:#000;
+	background:#cccdcd;
+	border-radius:10px;
+	text-decoration:none;
+}
+.dialog-btn a.play-agin{
+	margin-right:20px;
+}
+
+/*背景音乐*/
+.bgmusic{
+	width: 100px;
+	height: 50px;
+}
+.music{
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(#ff7f50,#ffa07a,#ffdab9);
+	border-radius: 50%;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	cursor: pointer;
+}
+/*生命值*/
+.life{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+.life_value{
+	width:30px;
+	height: 30px;
+	border-radius: 50%;
+	background:radial-gradient(#7fff00,#32cd32,#228b22);
+	float: left;
+	left: 10px;
+	margin-left:10px;
+}
+
+/*倒计时*/
+.dao{
+	width: 80px;
+	height: 30px;
+	background: white;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 30px;
+	position: absolute;
+	left: 300px;
+	top: 20px;
+}
+/*金币*/
+.money{
+	width: 100px;
+	height: 50px;
+	border: 0px solid red;
+	position: absolute;
+	top: 20px;
+	left:1000px;
+}
+.qian_img{
+	width: 50px;
+	height: 65px;
+	border: 0px solid red;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-top: -50px;
+	margin-left:50px;
+}
+.qian_img img{
+	margin-left: -22px;
+	margin-top: -15px;
+}
+.number{
+	width: 60px;
+	height: 30px;
+	background: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+/*购物*/
+.shopping{
+	position: absolute;
+	right: 150px;
+	top: 25px;
+}
+
+/*货物*/
+.product{
+	width: 300px;
+	height: 100px;
+	background:#daa520;
+	position: absolute;
+	right: -100px; 
+	top: 50px;
+	display: none;
+}
+.product div{
+	float: left;
+	width: 100px;
+	height: 80px;
+	margin-left:30px;
+	margin-top:10px;
+	text-align: center;
+}
+.product div p{
+	color: #696969;
+	font-size: 15px;
+}
+.product_close{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left:275px;
+	background: red;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+/*背景图*/
+.bg_img{
+	width: 820px;
+	height: 400px;
+	background: radial-gradient(#ff7f50,#ffa07a,#ffdab9);
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	display: none;
+}
+.imgs{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-left:10px;
+	margin-top:30px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.imgs p{
+	margin-top:5px;
+}
+.imgs p span{
+	color:#696969;
+}
+
+.shopping_close{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left:795px;
+	background: red;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}

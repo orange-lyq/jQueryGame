@@ -1,0 +1,131 @@
+<!doctype html>
+<html >
+ <head>
+  	<meta charset="UTF-8">
+  	<title>英雄难过棍子关范例</title>
+    <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body class="bg2">
+ 	<!-- 顶部放关卡和主菜单的盒子 -->
+	<div class="set-text">
+		<h2 class="play-title">关卡1</h2>
+		<a href="index.html">主菜单</a>
+	</div>
+	<!-- 中间放按钮的盒子 -->
+	<a href="javascript:void(0);" class="btnClick"></a>
+	<!-- 下面放棍子，小人，柱子的盒子 -->
+	<div class="container">
+	<!-- 放棍子的盒子 -->
+		<div class="stick"></div>
+		<!-- 放小人的盒子 -->
+		<div class="man">
+			<img src="img/stick_stand.png"/>
+		</div>
+		<!-- 放柱子的盒子 -->
+		<div class="well-box"></div>
+	</div>
+
+	<!-- 放提示框的盒子 -->
+	<div class="dialog" style="display:none">
+		<!-- 放提示的文本内容 -->
+		<p class="name"></p>
+		<!-- 放提示的按钮 -->
+		<p class="dialog-btn"></p>
+	</div>
+
+	<!-- 放背景音乐的盒子 -->
+	<div class="bgmusic">
+		<audio>
+			<source src="华晨宇 - 烟火里的尘埃.mp3" type="audio/mpeg" />
+		</audio>
+		<div class="music">start music</div>
+		<div class="music">stop music</div>
+	</div>
+
+	<!-- 生命值 -->
+	<div class="life">
+		<div class="life_value"></div>
+		<div class="life_value"></div>
+		<div class="life_value"></div>
+	</div>
+
+	<!-- 倒计时 -->
+	<div class="dao">00:<span class="secord">60</span></div>
+
+	<!-- 金币 -->
+	<div class="money">
+		<div class="number">0</div>
+		<div class="qian_img">
+			<img src="img/qian.jpg" width="100px"  height="100px" />
+		</div>
+	</div>
+	
+	<!-- 商城 -->
+	<div class="shopping">
+		<img src="img/shopping.jfif" width="50px" height="50px">
+		<!-- 货物 -->
+		<div class="product">
+			<div class="product_bg_img">
+				<img src="img/1.jpg" width="100px"  height="50px" />
+				<p>背景商城</p>
+			</div>
+			<div class="product_life">
+				<img src="img/yao.jpg" width="50px"  height="50px" />
+				<p>1生命值<span class="life_money">200</span></p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 背景图 -->
+	<div class="bg_img">
+		<div class="imgs">
+			<img src="img/bg1.gif" width="120px"  height="100px" />
+			<p>$<span>1000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg2.gif" width="120px"  height="100px" />
+			<p>$<span>500</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg3.gif" width="120px"  height="100px" />
+			<p>$<span>2000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg4.gif" width="120px"  height="100px" />
+			<p>$<span>500</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg5.gif" width="120px"  height="100px" />
+			<p>$<span>3000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg6.gif" width="120px"  height="100px" />
+			<p>$<span>8000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg7.gif" width="120px"  height="100px" />
+			<p>$<span>5000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg8.gif" width="120px"  height="100px" />
+			<p>$<span>10000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg9.gif" width="120px"  height="100px" />
+			<p>$<span>7000</span></p>
+		</div>
+		<div class="imgs">
+			<img src="img/bg10.gif" width="120px"  height="100px" />
+			<p>$<span>4500</span></p>
+		</div>
+		<div class="shopping_close">×</div>
+	</div>
+
+	<!-- 引入js文件 -->
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/play.js"></script>
+	 
+ </body>
+</html>
